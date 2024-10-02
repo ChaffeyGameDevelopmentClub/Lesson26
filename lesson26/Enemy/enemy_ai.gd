@@ -14,7 +14,7 @@ func _process(delta):
 		direction = -1
 		anime.flip_h = true
 	if ray_cast_left.is_colliding():
-		direction = -1
+		direction = 1
 		anime.flip_h = false
 	
 	position.x += direction * speed * delta

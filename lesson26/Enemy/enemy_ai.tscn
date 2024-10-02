@@ -27,6 +27,8 @@ sprite_frames = SubResource("SpriteFrames_fh3on")
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
 target_position = Vector2(128, 0)
+collide_with_areas = true
 
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 target_position = Vector2(-103, 0)
+collide_with_areas = true
