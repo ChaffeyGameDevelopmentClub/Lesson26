@@ -123,6 +123,7 @@ radius = 41.0
 height = 162.0
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 2
 script = ExtResource("1_u0e8o")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -144,6 +145,7 @@ shape = SubResource("CapsuleShape2D_fkvbi")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -130)
 zoom = Vector2(0.9, 0.9)
+limit_bottom = 642
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 drag_horizontal_enabled = true
